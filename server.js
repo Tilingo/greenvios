@@ -22,9 +22,15 @@ connection.on('error', (err) => {
     console.log('Mongoose default connection error: ' + err)
 })
 
-app.use(bodyParser.json())
+// app.use(bodyParser.json())
+// app.get('/', (req, res) => {
+//     res.send('Hello world!')
+// })
+
+app.use(express.static(__dirname + '/client/build/'))
+
 app.get('/', (req, res) => {
-    res.send('Hello world!')
+    res.sendFile(__dirname + '/client/build/index.html')
 })
 
 const PORT = process.env.PORT || 3001
