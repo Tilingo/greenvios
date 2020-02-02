@@ -6,8 +6,9 @@ class HomePage extends Component {
     render() {
         return (
             <StyledHomePage>
-
-                <img src={logo} alt="logo" />
+                <div className="logo-wrap">
+                    <img src={logo} alt="logo" />
+                </div>
             </StyledHomePage>
         );
     }
