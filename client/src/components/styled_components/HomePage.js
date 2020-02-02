@@ -8,8 +8,18 @@ align-items: center;
 width: 100vw;
 height: 100vh;
 
-img {
-    width: fit-content;
+.logo-wrap {
+    text-align: center;
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 412px){
+    .logo-wrap img{
+        width: 50%;
+    }
 }
 `
 
