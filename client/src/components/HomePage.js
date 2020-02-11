@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import logo from '../images/logo.png'
-import StyledHomePage from './styled_components/HomePage'
+import StyledHomePage from './styled_components/StyledHomePage';
+import HomeLogo from './HomeLogo';
+import WhoWeAre from './WhoWeAre';
 
 class HomePage extends Component {
     render() {
         return (
             <StyledHomePage>
-                <div className="logo-wrap">
-                    <img src={logo} alt="logo" />
-                </div>
+                <HomeLogo></HomeLogo>
+                <WhoWeAre></WhoWeAre>
             </StyledHomePage>
         );
     }
