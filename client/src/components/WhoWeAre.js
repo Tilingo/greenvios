@@ -5,7 +5,7 @@ import madrid from '../images/madrid-noche.jpg'
 class WhoWeAre extends Component {
     render() {
         return (
-            <StyledWhoWeAre>
+            <StyledWhoWeAre id="somos">
                 <div className="somos-text">
                     <h1>SOMOS</h1>
                     <h3>UN SERVICIO DE PAQUETERIA RESPONSABLE.</h3>

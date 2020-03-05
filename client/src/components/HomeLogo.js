@@ -5,7 +5,7 @@ import logo from '../images/logo.png';
 class HomeLogo extends Component {
     render() {
         return (
-            <StyledHomeLogo>
+            <StyledHomeLogo id="home">
                 <img src={logo} alt="logo" />
             </StyledHomeLogo>
         );
