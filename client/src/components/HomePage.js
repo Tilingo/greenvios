@@ -7,15 +7,12 @@ import OurServices from './OurServices';
 import Team from './Team';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
-import Form from 'react-bootstrap/Form'
-import FormControl from 'react-bootstrap/FormControl'
-import Button from 'react-bootstrap/Button'
 
 class HomePage extends Component {
     render() {
         return (<div>
-            <Navbar bg="dark" expand="lg" fixed="top" variant="dark">
+            <Navbar bg="light" expand="lg" fixed="top">
+                <Navbar.Brand href="#home" className="home-button">Greenvios</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
@@ -24,7 +21,6 @@ class HomePage extends Component {
                         <Nav.Link href="#contacto">Contacto</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                <Navbar.Brand href="#home">Greenvios</Navbar.Brand>
             </Navbar>
             <StyledHomePage>
                 <HomeLogo></HomeLogo>
