@@ -25,8 +25,8 @@ class HomePage extends Component {
             <StyledHomePage>
                 <HomeLogo></HomeLogo>
                 <WhoWeAre id="somos"></WhoWeAre>
-                <Mission></Mission>
                 <OurServices></OurServices>
+                <Mission></Mission>
                 <Team></Team>
             </StyledHomePage>
         </div>
