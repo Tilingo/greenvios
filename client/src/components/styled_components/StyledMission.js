@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import img from '../../images/madrid.jpg'
 
 const StyledMission = styled.section`
-margin: 25px 0;
+margin: 25px 0 0 0;
 background-image: url(${img});
 background-size: cover;
 

@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import StyledTeam from './styled_components/StyledTeam'
 
 export default class Team extends Component {
     render() {
         return (
-            <section>
+            <StyledTeam>
                 <h3>EQUIPO</h3>
-                <div>
+                <div className="content-wrap">
                     <p>
                         Todos los que forman Greenvio poseen certificados PRL (Proteccion de riesgos laborales) y seguro de accidente.
                     </p>
@@ -19,7 +20,7 @@ export default class Team extends Component {
                         Si no queda satisfecho con el servicio, le devolvemos su dinero.
                     </p>
                 </div>
-            </section>
+            </StyledTeam>
         )
     }
 }
