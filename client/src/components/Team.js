@@ -7,6 +7,7 @@ export default class Team extends Component {
             <StyledTeam>
                 <h3>EQUIPO</h3>
                 <div className="content-wrap">
+                <div className="secondary-wrap"></div>
                     <p>
                         Todos los que forman Greenvio poseen certificados PRL (Proteccion de riesgos laborales) y seguro de accidente.
                     </p>
